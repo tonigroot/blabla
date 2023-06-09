@@ -22,38 +22,45 @@ body{
 .box h1{
 	font-size: 50px;
 	letter-spacing: 4px;
-	height: 80px;
+	height: 100px;
 	font-weight: 100;
 }
-.box h5{
+.box h2{
 	font-size: 30px;
 	letter-spacing: 3px;
-	height: 40px;
+	height: 10px;
 	font-weight: 100;
 }
 .box p{
 	text-align: justify;
 }
 .ul{
-	margin: 0;
-	padding: 0;
+	text-align: justify;
 }
-.box a{
+.box li{
+    text-align: justify;
+    font-size: 20px;
+    font-style: normal;
+}
+.social-icon{
 	font-size: 70px;
+	width: 60px;
 	display: inline-block;
-	margin: 6px;
+	margin: 40px;
+	position: ;
 	list-style: none;
 }
-.box li a{
+.box b{
 	color: white;
-	margin: 20px;
-	text-decoration: none;
-	font-size: 60px;
-	transition: all ease-in-out 250ms;
+	text-align: justify;
+	margin: 10px;
+	height: 20px;
+	font-size: 20px;
+	
 }
 
 img {
-    --s: 200px;
+    --s: 280px;
     --b: 5px;
     --c: #00eeff;
     --f: 1;
@@ -76,6 +83,8 @@ img {
     transform: scale(var(--f));
     transition: .5s;
 }
+
 img:hover {
     --f: 1.35;
 }
+
